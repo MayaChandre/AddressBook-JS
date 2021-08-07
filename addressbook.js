@@ -8,7 +8,8 @@ let zipRegex = RegExp("^[1-9]{1}[0-9]{2}[ ]?[0-9]{3}$");
 let phoneNumberRegex = RegExp("^[1-9]{1}[0-9]{9}$");
 let emailRegex = RegExp("^([a-z]+)([0-9])*([_+-.]{1}[a-z0-9]+)*(@)([a-z0-9]+)[.]([a-z]{2,})([.][a-z]{2}){0,1}$");
 class Contact {
-    constructor(...params) {
+    constructor(...params) 
+    {
         if (nameRegex.test(params[0]))
             this.firstName = params[0];
         else throw "Invalid First Name!!";
