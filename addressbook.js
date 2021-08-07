@@ -35,7 +35,8 @@ class AddressBook {
         else throw "Invalid Email!!";
     }
 
-    toString() {
+    toString()
+     {
         return "First Name : " + this.firstName + ", Last Name : " + this.lastName + ", Address : " + this.address + ", City : " + this.city + ", State : " + this.state + ", Zip : " + this.zip + ", Phone Number : " + this.phoneNumber + ", Email : " + this.email;
     }
 }
