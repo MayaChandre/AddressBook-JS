@@ -1,4 +1,5 @@
 
+
 //Validate contacts in address book
 let nameRegex = RegExp("^[A-Z]{1}[a-z]{2,}$");
 let addressRegex = RegExp("^[A-Za-z]{4,}$");
