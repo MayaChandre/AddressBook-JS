@@ -119,6 +119,4 @@ let deleteContact = () => {
                 default: console.log("Invalid Choice !!");
             }
         
-        } while (choice != 5);
-
-
+        } while (choice != 5)
